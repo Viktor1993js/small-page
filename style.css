@@ -2,7 +2,7 @@ body{
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Myriad Pro";
 }
 
 header{
@@ -319,4 +319,172 @@ main .gallery{
         background: #7a786e;
         margin: 154px 0 0 0;
         padding: 6.5px 0;
+    }
+
+    footer .forms{
+        background: #f4f0dd;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #f3f1e8;
+        border-top: 1px solid #e8e5d4;
+    }
+
+    footer .forms p{
+        font-size: 36.38px;
+        color: #ffffff;
+        margin: 120px 0 25px;
+    }
+
+    footer .forms span{
+        font-size: 13.86px;
+        color: #ffffff;
+        margin-bottom: 55px;
+    }
+
+    footer .forms form{
+        margin-bottom: 120px;
+    }
+
+    footer .forms .email{
+        width: 430px;
+        height: 68px;
+        border: none;
+        border-radius: 4px;
+        padding-left: 30px;
+        font-size: 13.86px;
+    }
+
+    footer .forms .btn_two{
+        text-transform: uppercase;
+        background: #ff2d2d;
+        color: #ffffff;
+        border: none;
+        width: 185px;
+        height: 68px;
+        padding: 0;
+        border-radius: 4px;
+        margin-left: 18px;
+    }
+
+    footer .touch{
+        margin-left: 143px;
+        /* max-width: 634px; */
+        width: 100%;
+        width: auto;
+    }
+
+    footer .touch p{
+        font-size: 36.38px;
+        font-weight: bold;
+        margin: 85px 0 20px;
+        
+    }
+
+    footer .touch span{
+        color: #5e5e5e;
+        line-height: 1.4;
+        
+        
+    }
+
+    footer .touch hr{
+        border: none;
+        background-color: #dc3131;
+        height: 2px;
+        width: 113px;
+        margin-top: 23px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 65px;
+    }
+    
+    footer .contact_info{
+        display: flex;
+        max-height: 430px;
+        height: auto;
+        
+    }
+
+    .contact_info .enter_name{
+        background: #e5e5e5;
+        border: none;
+        border-radius: 6px;
+        padding: 25px 0 25px 46px;
+        margin-right: 44px;
+        width: 247px;
+    }
+    
+    .contact_info .enter_email{
+        background: #e5e5e5;
+        border: none;
+        border-radius: 6px;
+        padding: 25px 0 25px 46px;
+        width: 247px;
+    }
+
+    .contact_info .enter_message{
+        background: #e5e5e5;
+        border: none;
+        border-radius: 6px;
+        padding-left: 46px;
+        width: 586px;
+        padding-bottom: 165px;
+        padding-top: 34px;
+        margin-top: 39px;
+        margin-bottom: 39px;
+    }
+
+    .contact_info .btn_three{
+        color: #ffffff;
+        text-transform: uppercase;
+        background: #ff2d2d;
+        border: none;
+        border-radius: 6px;
+        padding: 25px 0;
+        width: 634px;
+    }
+  
+    .contact_info .city_phone{
+        display: flex;
+        flex-direction: column;
+        background: #313131;
+        padding: 0 160px 0 69px;
+    }
+
+    .contact_info .city_phone span{
+        color: #919191;
+        text-transform: uppercase;
+        font-size: 15.59px;
+        padding: 0;
+        margin: 100px 0 0 0;
+        width: 250px;
+        
+        
+    }
+
+    .contact_info .city_phone p{
+        color: #919191;
+        font-size: 13.86px;
+        line-height: 2;
+        padding: 0;
+        margin: 0;
+        width: 250px;
+        padding-top: 30px;
+    }
+    
+    footer .footer_end{
+        background: #343333;
+        padding: 0;
+        margin-top: 95px;
+    }
+
+    .footer_end .copy{
+        margin: 0 143px;
+    }
+
+    footer .footer_end p{
+        color: #b7b7b7;
+        padding: 47px 0 30px;
+        margin: 0;
     }
