@@ -474,17 +474,19 @@ main .gallery{
     }
     
     footer .footer_end{
+        display: flex;
+        justify-content: space-between;
         background: #343333;
-        padding: 0;
+        padding: 0 143px;
         margin-top: 95px;
-    }
-
-    .footer_end .copy{
-        margin: 0 143px;
     }
 
     footer .footer_end p{
         color: #b7b7b7;
         padding: 47px 0 30px;
         margin: 0;
+    }
+
+    footer .footer_end img{
+        padding-top: 40px;
     }
