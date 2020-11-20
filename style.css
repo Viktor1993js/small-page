@@ -226,11 +226,11 @@ main .gallery{
     height: 250px;
     background-color: #f3f0dd;
     margin-bottom: 17px;
-}
+/* }
 
 .products_two{
     /* text-align: center; */
-    }
+    } */
     
     main .products_two p{
         font-size: 36.38px;
@@ -270,9 +270,9 @@ main .gallery{
         margin-right: 32px;
     }
 
-    main .cards_two{
+    /* main .cards_two{
         
-    }
+    } */
 
     main .text_two{
         /* max-width: 555px; */
