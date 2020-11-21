@@ -490,3 +490,7 @@ main .gallery{
     footer .footer_end img{
         padding-top: 40px;
     }
+
+    footer .footer_end area:focus {
+        outline: none;
+    }
