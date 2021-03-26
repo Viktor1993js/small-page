@@ -9,22 +9,31 @@ header{
     width: 100%;
 }
 
+
+.anchor{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
 .container{
     background: #f6f2f2;
-    height: 596px;
-    padding-top: 25px;
+    max-height: auto;
+    padding: 80px 0;
     letter-spacing: 0.5px;
 }
 
 .navigation{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0 143px 89px;
     text-transform: uppercase;
     background: #313030;
 }
 
 .navigation a{
+    flex-basis: 150px;
+    text-align: center;
     padding: 44px 24px 34px;
     text-decoration: none;
     color: #e0e0e0;
@@ -42,6 +51,7 @@ header{
     display: flex;
     padding: 0 143px ;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact .text{
@@ -86,7 +96,6 @@ header{
 
 .video{
     width: 475px;
-    height: 305px;
     border-bottom: 1px solid #b63434;
     box-shadow: -25px -25px 70px -20px rgb(119, 116, 116);
 }
@@ -196,8 +205,9 @@ main .products hr{
 main .all{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 75px;
-    margin-left: 50px;
+    flex-wrap: wrap;
 }
 
 main .all a{
@@ -221,17 +231,10 @@ main .gallery{
     margin-top: 52px;
 }
 
-.photo div{
+main .gallery img{
     width: 250px;
     height: 250px;
-    background-color: #f3f0dd;
-    margin-bottom: 17px;
-/* }
-
-.products_two{
-    /* text-align: center; */
-    } */
-    
+}    
     main .products_two p{
         font-size: 36.38px;
         font-weight: bold;
@@ -256,26 +259,24 @@ main .gallery{
     main .mark{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: flex-end;
         margin-top: 60px;
-        max-height: 397px;
-        height: auto;
+        /* max-height: 397px; */
+        /* height: auto; */
         margin-bottom: 95px;
     }
 
-    main .big_photo{
-        width: 279px;
-        height: 396px;
-        background: #f5f0dd;
-        margin-right: 32px;
+    
+
+
+    main .big_photo img{
+        width: 250px;
+        height: 250px;
+        /* margin-right: 32px; */
     }
-
-    /* main .cards_two{
-        
-    } */
-
+    
     main .text_two{
-        /* max-width: 555px; */
         width: auto;
         display: inline-block;
     }
@@ -301,26 +302,30 @@ main .gallery{
 
     .gallery_two{
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;
         margin-top: 54px;
     }
-
-    .gallery_two div{
+    
+    main .gallery_two div{
+        display: flex;
+    }
+    
+    main .dog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* width: 23%; */
+    }
+    main .dog img{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
         width: 170px;
-        height: 185px;
-        background: #f5f0dd;
-        width: 23%;
+        height: 170px;
     }
 
-    .gallery_two .div_one p{
-        text-align: center;
-        text-transform: uppercase;
-        color: #ffffff;
-        background: #7a786e;
-        margin: 154px 0 0 0;
-        padding: 6.5px 0;
-    }
-
+    
     footer .forms{
         background: #f4f0dd;
         display: flex;
@@ -401,9 +406,22 @@ main .gallery{
     
     footer .contact_info{
         display: flex;
-        max-height: 430px;
-        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 95px;
         
+    }
+    footer .contact_info .input_bottom{
+        margin-left: 143px;
+        max-width: 650px;
+        width: 100%;
+    }
+    
+
+    .contact_info .inputs_one{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
     }
 
     .contact_info .enter_name{
@@ -411,7 +429,7 @@ main .gallery{
         border: none;
         border-radius: 6px;
         padding: 25px 0 25px 46px;
-        margin-right: 44px;
+        /* margin-right: 44px; */
         width: 247px;
     }
     
@@ -421,18 +439,19 @@ main .gallery{
         border-radius: 6px;
         padding: 25px 0 25px 46px;
         width: 247px;
+        /* width: 100%; */
     }
 
     .contact_info .enter_message{
         background: #e5e5e5;
         border: none;
-        border-radius: 6px;
         padding-left: 46px;
-        width: 586px;
+        border-radius: 6px;
         padding-bottom: 165px;
         padding-top: 34px;
         margin-top: 39px;
         margin-bottom: 39px;
+        width: 93%;
     }
 
     .contact_info .btn_three{
@@ -442,14 +461,15 @@ main .gallery{
         border: none;
         border-radius: 6px;
         padding: 25px 0;
-        width: 634px;
+        /* max-width: 634px; */
+        width: 100%;
     }
-  
+    
     .contact_info .city_phone{
         display: flex;
         flex-direction: column;
         background: #313131;
-        padding: 0 160px 0 69px;
+        padding: 0 130px 0 60px;
     }
 
     .contact_info .city_phone span{
@@ -459,8 +479,6 @@ main .gallery{
         padding: 0;
         margin: 100px 0 0 0;
         width: 250px;
-        
-        
     }
 
     .contact_info .city_phone p{
@@ -475,22 +493,129 @@ main .gallery{
     
     footer .footer_end{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         background: #343333;
         padding: 0 143px;
-        margin-top: 95px;
+        /* margin-bottom: 95px; */
     }
 
+    
     footer .footer_end p{
         color: #b7b7b7;
         padding: 47px 0 30px;
         margin: 0;
     }
-
+    
     footer .footer_end img{
         padding-top: 40px;
     }
+    
+    @media screen and (max-width: 602px) {
+        .provide{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 95px;
+            flex-wrap: wrap;
+        }
+        .provide .cards {
+            padding-top: 20px;
+        }
+        .contact_info .inputs_one{
+            justify-content: center;
 
-    footer .footer_end area:focus {
-        outline: none;
+        }
+        .contact_info .inputs_one input{
+            margin-bottom: 10px;
+        }
+        .contact_info .enter_message{
+            align-items: center;
+        }
     }
+    
+    @media (max-width: 685px) {
+        footer .forms{
+            text-align: center;
+        }
+        footer .forms form{
+            margin-bottom: 60px;
+        }
+        footer .forms .btn_two{
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 775px) {
+        footer .footer_end{
+            justify-content: center;
+            text-align: center;
+        }
+        footer .footer_end img{
+            padding-top: 0;
+        }
+        footer .footer_end p{
+            color: #b7b7b7;
+           
+            margin: 0;
+        }
+        footer .footer_end area:focus {
+            outline: none;
+        }
+    }
+
+    @media (max-width: 1106px) {
+        .contact_info .city_phone{
+            
+            margin: 20px 0 0 0;
+            padding-bottom: 90px;
+        }
+    }
+
+    @media screen and (max-width: 1209px) {
+        main .all a {
+           margin: 10px;
+        }
+    }
+    
+    @media (max-width: 1250px) {
+        footer .contact_info{
+            justify-content: center;
+        }
+        footer .contact_info .input_bottom{
+            margin: 0;
+        }
+        
+        footer .contact_info .inputs{
+            flex-wrap: wrap;
+
+        }
+
+    }
+
+    @media screen and (max-width: 1308px) {
+        .container .contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact .text {
+            text-align: center;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+        
+    }
+
+    .tooltip{
+        background-color: rgb(112, 112, 112, 0.5);
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+
+
+    
+
+
+   
