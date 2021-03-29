@@ -490,6 +490,22 @@ main .gallery img{
         width: 250px;
         padding-top: 30px;
     }
+
+    .contact_info .city_phone div{
+        color: #919191;
+        font-size: 13.86px;
+        line-height: 2;
+        padding: 0;
+        margin: 0;
+        width: 250px;
+        padding-top: 30px;
+    }
+
+    .contact_info .city_phone a{
+        color: #919191;
+        text-decoration: none;
+    }
+
     
     footer .footer_end{
         display: flex;
